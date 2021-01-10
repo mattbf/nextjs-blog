@@ -12,9 +12,9 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>{"Hi, I'm Matthew. I like to build things. This is me learning how to use Next.js"}</p>
+        <p class='text-gray-500' >{"Hi, I'm Matthew. I like to build things. This is me learning how to use Next.js"}</p>
         <div style={{height: 20}}/>
-        <p>
+        <p class='text-gray-500' >
           (This is a website  built with Next.js — see repo{' '}
           <a href="https://github.com/mattbf/nextjs-blog" class='text-green-400 hover:text-green-600'>here</a>.)
         </p>
